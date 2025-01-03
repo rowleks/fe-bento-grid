@@ -1,0 +1,125 @@
+:root {
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+    --bg-yl: #faf8fb;
+    --bg: #f5f5f5;
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "DM Sans";
+    font-size: 1.125rem;
+    background-color: var(--bg);
+    color: var(--black);
+}
+
+h3 {
+    font-size: 2ch;
+    font-weight: 600;
+    line-height: 1;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem ;
+    gap: 2rem;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.s1 {
+    align-items: center;
+    background-color: var(--purple-500);
+    color: var(--white);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.s1 h2 {
+    font-size: 3.5ch;
+    text-align: center;
+    line-height: .9;
+    font-weight: 500;
+}
+
+.s1 img {
+    width: 10rem;
+}
+
+.s1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+}
+
+.s1 span {
+    color: var(--yellow-500);
+}
+
+.s2 {
+    background-color: var(--bg-yl);
+    color: var(--black);
+    gap: 1rem;
+}
+
+.s3 {
+    display: grid;
+    grid-template-rows: 1fr 200px;
+    background-color: var(--yellow-500);
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.s3 img {
+  width: 20rem;
+}
+
+.s4 {
+    background-color: var(--purple-100);
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.s4 small {
+    font-size: 1.2rem;
+}
+
+.s5 {
+    background-color: var(--purple-500);
+    color: var(--white);
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2ch;
+    line-height: .8;
+    font-weight: 500
+}
+
+.s5 img {
+    width: 15rem;
+}
+
+
